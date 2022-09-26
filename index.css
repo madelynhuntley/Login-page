@@ -1,0 +1,28 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.hero-container .left-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-container .login-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
