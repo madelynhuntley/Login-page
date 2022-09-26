@@ -26,3 +26,7 @@
   justify-content: center;
   align-items: center;
 }
+
+.hero-container .login-form h1 {
+  font-weight: bold;
+}
