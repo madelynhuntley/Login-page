@@ -14,6 +14,10 @@
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/50951be391.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="nav-wrapper">
@@ -30,12 +34,14 @@
 
       <div class="login-form">
         <h1>Login</h1>
-        <form>
+        <form action="https://httpbin.org/post" method="post">
           <div>
             <input placeholder="email" />
+            <i class="fa-thin fa-pen"></i>
           </div>
           <div>
             <input placeholder="password" />
+            <i class="fa-thin fa-mug-hot"></i>
           </div>
           <div>
             <button>Submit</button>
